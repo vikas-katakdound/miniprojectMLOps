@@ -1,0 +1,13 @@
+prefix=C:/Users/Vikas/Mini Project/venvMiniProject/Library
+exec_prefix=C:/Users/Vikas/Mini Project/venvMiniProject/Library
+libdir=C:/Users/Vikas/Mini Project/venvMiniProject/Library/lib
+sharedlibdir=C:/Users/Vikas/Mini Project/venvMiniProject/Library/lib
+includedir=C:/Users/Vikas/Mini Project/venvMiniProject/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
